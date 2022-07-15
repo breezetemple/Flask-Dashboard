@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 
 from sqlalchemy import create_engine
-from example.commons import Faker
+from pyecharts.faker import Faker
 from pyecharts import options as opts
 from pyecharts.components import Image
 from pyecharts.options import ComponentTitleOpts
